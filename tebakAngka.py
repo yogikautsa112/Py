@@ -1,4 +1,3 @@
-# import library
 import random
 import math
 
