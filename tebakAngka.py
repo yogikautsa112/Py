@@ -7,7 +7,6 @@ lower = int(input("Masukan angka terendah: "))
 upper = int(input("Masukan angka tertinggi: "))
 
 # ini buat bikin angka acak dari si lower sama upper nya
-# sama buat kesempatan nebak nya berapa kali
 x = random.randint(lower, upper)
 print("\n\tKamu cuman punya ", 
     round(math.log(upper - lower + 1,2 )), 
